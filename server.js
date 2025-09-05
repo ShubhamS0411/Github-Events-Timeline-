@@ -9,7 +9,7 @@ import sendUpdates from "./src/server/endpoints/sendUpdates.js";
 dotenv.config();
 const app = express();
 app.use(cors({
-  origin: "https://github-events-timeline.vercel.app",
+  origin: "https://github-events-timeline-olnffrd3f.vercel.app",
   methods: ["GET", "POST"],
   credentials: true
 }));
